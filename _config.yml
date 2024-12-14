@@ -24,7 +24,7 @@ author:
   avatar           : "photo.jpg"
   name             : "Chenchen Feng"
   pronouns         : # "he/him"
-  bio              : "Evolutionary Computing\n Differential Evolution"
+  bio              : "Evolutionary Computing<br>Differential Evolution"
   location         : "Shenzhen, China"
   employer         : "SUSTech"
   uri              : # URL
@@ -46,10 +46,12 @@ author:
   dribbble         : # Username
   github           : "starquakee"
   kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
-  bangumi          : "https://bangumi.tv/user/846860" # Replace this with you Bluesky username
+  bangumi          : "846860"
+  bilibili         : "434237222"
+  pixiv            : "96768290"
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -63,7 +65,7 @@ author:
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : # Username
+  steam            : "76561199083883534"
   telegram         : # URL
   tumblr           : # Username
   twitter          : # Username for X / Twitter
@@ -72,7 +74,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # Username
+  zhihu            : "meng-zhi-qi-shang"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
