@@ -53,6 +53,14 @@
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
       {% endif %}
+      {% if author.supervisor %}
+      <li>
+        <a href="https://scholar.google.com/citations?user={{ author.supervisor }}">
+          <i class="fas fa-graduation-cap ai-fw icon-pad-right"></i>Supervisor
+        </a>
+      </li>
+      {% endif %}
+
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li>
       {% endif %}                        
@@ -85,13 +93,21 @@
 
       <!-- Font Awesome icons / Social media -->
       {% if author.bangumi %}
-      <li><a href="https://bangumi.tv/user/{{ author.bangumi }}"><i class="fas fa-fw fa-tv icon-pad-right" aria-hidden="true"></i>Bangumi</a></li>
+      <li>
+        <a href="https://bangumi.tv/user/{{ author.bangumi }}">
+          <i class="fas fa-fw fa-user-circle icon-pad-right" aria-hidden="true"></i>Bangumi
+        </a>
+      </li>
       {% endif %}
       {% if author.bilibili %}
       <li><a href="https://space.bilibili.com/{{ author.bilibili }}"><i class="fas fa-fw fa-play-circle icon-pad-right" aria-hidden="true"></i>Bilibili</a></li>
       {% endif %}
       {% if author.pixiv %}
-      <li><a href="https://www.pixiv.net/users/{{ author.pixiv }}"><i class="fas fa-fw fa-tv icon-pad-right" aria-hidden="true"></i>Pixiv</a></li>
+      <li>
+        <a href="https://www.pixiv.net/users/{{ author.pixiv }}">
+          <i class="fas fa-fw fa-palette icon-pad-right" aria-hidden="true"></i>Pixiv
+        </a>
+      </li>
       {% endif %}
       {% if author.bluesky %}
         <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a></li>
