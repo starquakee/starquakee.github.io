@@ -184,3 +184,113 @@
     </ul>
   </div>
 </div>
+
+<!--<div class="music-player">-->
+<!--  <style>-->
+<!--    /* 播放器整体容器样式 */-->
+<!--    .player-container {-->
+<!--      display: flex;-->
+<!--      flex-direction: column; /* 垂直排列 */-->
+<!--      align-items: start; /* 水平居中对齐 */-->
+<!--      justify-content: start; /* 垂直居中对齐 */-->
+<!--      text-align: center; /* 文本居中 */-->
+<!--      margin: 10px 0; /* 上下外边距 */-->
+<!--    }-->
+
+<!--    /* 歌曲名称样式 */-->
+<!--    .song-title {-->
+<!--      font-size: 16px;-->
+<!--      font-weight: bold;-->
+<!--      margin-bottom: 5px; /* 和播放器之间的间距 */-->
+<!--    }-->
+
+<!--    /* 调整播放器样式 */-->
+<!--    .small-audio-player {-->
+<!--      width: 128px; /* 播放器的宽度 */-->
+<!--      height: 50px; /* 播放器的高度 */-->
+<!--    }-->
+
+<!--    /* 隐藏不需要的控件 */-->
+<!--    audio::-webkit-media-controls-timeline,-->
+<!--    audio::-webkit-media-controls-menu-button,-->
+<!--    audio::-webkit-media-controls-current-time-display,-->
+<!--    audio::-webkit-media-controls-time-remaining-display {-->
+<!--      display: none; /* 隐藏进度条、菜单和时间 */-->
+<!--    }-->
+<!--  </style>-->
+
+<!--  &lt;!&ndash; 播放器内容 &ndash;&gt;-->
+<!--  <div class="player-container">-->
+<!--    <div class="song-title">     櫻ノ詩</div>-->
+<!--    <audio id="audio-player" class="small-audio-player" controls>-->
+<!--      <source src="/assets/audio/樱之诗.mp3" type="audio/mpeg">-->
+<!--      Your browser does not support the audio element.-->
+<!--    </audio>-->
+<!--  </div>-->
+
+<!--  <script>-->
+<!--    // 设置默认音量为 50% (0.5)-->
+<!--    document.getElementById('audio-player').volume = 0.5;-->
+<!--  </script>-->
+<!--</div>-->
+<div class="music-player">
+  <style>
+    /* 播放器整体容器样式 */
+    .player-container {
+      display: flex;
+      flex-direction: column; /* 垂直排列 */
+      align-items: center;
+      justify-content: center;
+      margin-left: -100px;
+      margin-top: 100px; /* 添加顶部间距 */
+    }
+
+    /* 歌曲名称样式 */
+    .song-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px; /* 歌曲名与播放器之间的间距 */
+      color: #333;
+    }
+
+    /* 调整播放器样式 */
+    .small-audio-player {
+      width: 128px; /* 播放器宽度 */
+      height: 50px; /* 播放器高度 */
+    }
+
+    /* 隐藏不需要的控件 */
+    audio::-webkit-media-controls-timeline,
+    audio::-webkit-media-controls-menu-button,
+    audio::-webkit-media-controls-current-time-display,
+    audio::-webkit-media-controls-time-remaining-display {
+      display: none; /* 隐藏进度条、菜单和时间 */
+    }
+  </style>
+
+  <!-- 播放器及歌曲名 -->
+  <div class="player-container">
+    <div class="song-title">樱ノ詩</div>
+    <audio id="audio-player" class="small-audio-player" controls>
+      <source src="/assets/audio/樱之诗.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+
+  <script>
+    // 设置默认音量为 50% (0.5)
+    document.getElementById('audio-player').volume = 0.5;
+  </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
