@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
+# About Me
 
 Hello! My name is Chenchen Feng, and I am a first-year graduate student specializing in Computer Science. I am interested in Evolutionary Computation and specialize in designing Differential Evolution algorithms. At the same time, I am a homebody, love ACG, have seen 300+ animations and played over 100 Galgames. If you also love ACG, please add me as a [bangumi friend](https://bangumi.tv/user/846860).
 
