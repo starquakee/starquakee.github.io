@@ -7,58 +7,49 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+- **Master of Computer Science**, Southern University of Science and Technology (SUSTech), _2024–Present_
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Bachelor of Computer Science**, Southern University of Science and Technology (SUSTech), _2020–2024_
+  - Thesis: "MetaDE: Evolving Differential Evolution by Differential Evolution"
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+---
+
+## Work Experience
+
+- **Intern**, Kevin Software Information Services Co., Ltd.  
+  _October 2022 - January 2023_
+  - Designed and built an extensible hotel database using MySQL to facilitate development.
+  - Developed back-end features in C#, including user registration, room search, room booking, payment transactions, and order reviews.
+
+
+---
+
+## Projects and Interests
+
+- **Supercritical Airfoil Design and Optimization**  
+  _(Python, Matlab)_
+  - Designed and optimized a supercritical airfoil for a large wide-body passenger aircraft using deep learning.
+  - Achieved superior performance in flutter coefficient and lift-to-drag ratio compared to manual designs.
+
+- **Research Fund Management System**  
+  _(SpringBoot, MySQL, VUE)_
+  - Developed a system for university faculty to manage fund applications and approvals, featuring data visualization, messaging, and high concurrency.
+
+- **P2P File Transfer with UDP and Congestion Control**  
+  _(Python)_
+  - Built a UDP-based P2P file transfer system with TCP-like reliability using congestion control techniques.
+
+
+---
+
+## Publications
+
+- **MetaDE: Evolving Differential Evolution by Differential Evolution** - _Under Submission_
+  - keep a secret temperately
+
+- **Unleashing the Potential of Differential Evolution by Simple yet Diverse Strategies** - _Under Submission_
+  - keep a secret temperately
