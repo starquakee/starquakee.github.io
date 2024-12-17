@@ -224,6 +224,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  memory:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -271,6 +274,15 @@ defaults:
   - scope:
       path: ""
       type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _memory
+  - scope:
+      path: ""
+      type: memory
     values:
       layout: single
       author_profile: true
