@@ -20,11 +20,12 @@ Hello! My name is Chenchen Feng, and I am a first-year graduate student speciali
 ## Education
 
 - **Master of Computer Science**, Southern University of Science and Technology (SUSTech), _2024–Present_
+  <img src="/images/校徽.png" width="80" height="80">
 
 
-- **Bachelor of Computer Science**, Southern University of Science and Technology (SUSTech), _2020–2024_
+- **Bachelor of Computer Science**, Southern University of Science and Technology (SUSTech), _2020–2024_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="/images/校徽.png" width="80" height="80">
   - Thesis: "MetaDE: Evolving Differential Evolution by Differential Evolution"
-
 
 ---
 
