@@ -48,7 +48,7 @@ redirect_from:
 
 ## Publications
 
-- **MetaDE: Evolving Differential Evolution by Differential Evolution** - _Under Submission_
+- **MetaDE: Evolving Differential Evolution by Differential Evolution** - _TEVC_
   - keep a secret temperately
 
 - **Unleashing the Potential of Differential Evolution by Simple yet Diverse Strategies** - _Under Submission_
