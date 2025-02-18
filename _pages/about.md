@@ -60,10 +60,11 @@ Hello! My name is Chenchen Feng, and I am a first-year graduate student speciali
 ## Publications
 
 - **MetaDE: Evolving Differential Evolution by Differential Evolution** - _TEVC_
-  - keep a secret temperately
+  - MetaDE is a GPU-accelerated evolutionary framework that optimizes Differential Evolution (DE) strategies via meta-level evolution. The source code of MetaDE is publicly accessible at: https://github.com/EMI-Group/metade.
 
-- **Unleashing the Potential of Differential Evolution by Simple yet Diverse Strategies** - _Under Submission_
-  - keep a secret temperately
+[//]: # (- **Unleashing the Potential of Differential Evolution by Simple yet Diverse Strategies** - _Under Submission_)
+
+[//]: # (  - keep a secret temperately)
 
 
 ---
