@@ -53,6 +53,9 @@
       {% if author.orcid %}
         <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
       {% endif %}
+      {% if author.leetcode %}
+      <li><a href="{{ author.leetcode }}"><i class="ai ai-leetcode ai-fw icon-pad-right"></i>LeetCode</a></li>
+      {% endif %}
       {% if author.supervisor %}
       <li>
         <a href="https://scholar.google.com/citations?user={{ author.supervisor }}">

@@ -25,7 +25,7 @@ author:
   avatar           : "photo.jpg"
   name             : "Chenchen Feng"
   pronouns         : # "he/him"
-  bio              : "Evolutionary Computing<br>Differential Evolution"
+  bio              : "Studying..."
   location         : "Shenzhen, China"
   employer         : "SUSTech"
   uri              : # URL
@@ -40,6 +40,7 @@ author:
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
+  leetcode         : "https://leetcode.cn/u/star-quake/"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
@@ -51,7 +52,7 @@ author:
 
   # Social media
   bangumi          : "846860"
-  bilibili         : "434237222"
+  bilibili         : # "434237222"
   pixiv            : # "96768290"
   facebook         : # Username
   flickr           : # Username

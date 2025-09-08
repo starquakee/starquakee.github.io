@@ -9,7 +9,7 @@ redirect_from:
 
 # About Me
 
-Hello! My name is Chenchen Feng, and I am a first-year graduate student specializing in Computer Science. I am interested in Evolutionary Computation and specialize in designing Differential Evolution algorithms. I love playing games and am a top 100 player in CR and COC. At the same time, I am a homebody, love ACG, have seen 300+ animations and played over 100 Galgames. If you also love ACG, please add me as a [bangumi friend](https://bangumi.tv/user/846860).
+Hello! My name is Chenchen Feng, and I am a second-year graduate student specializing in Computer Science. I am interested in Evolutionary Computation and LLM. I love playing games and am a top 100 player in CR and COC. At the same time, I am a homebody, love ACG, have seen 400+ animations and played over 100 GalGames. If you also love ACG, please add me as a [bangumi friend](https://bangumi.tv/user/846860). At the same time, I also established an [ACG music website](https://music.acgs.one/), which currently has over 500 registered users. Welcome to visit!
 
 - **Location**: [Shenzhen, China]
 - **Institution**: [Southern University of Science and Technology(SUSTech)]
