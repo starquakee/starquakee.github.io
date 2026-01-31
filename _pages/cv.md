@@ -20,6 +20,11 @@ redirect_from:
 
 ## Work Experience
 
+- **Security LLM Intern**, Sangfor Technologies Inc.
+  _November 2025 - February 2026_
+  - Optimized MoE models for distributed training efficiency and improved key metrics by 3%-21% through curriculum learning-based instruction tuning.
+  - Applied reinforcement learning algorithms like GRPO to enhance model alignment and compliance in complex real-world environments.
+
 - **Intern**, Kevin Software Information Services Co., Ltd.  
   _October 2022 - January 2023_
   - Designed and built an extensible hotel database using MySQL to facilitate development.
@@ -29,6 +34,11 @@ redirect_from:
 ---
 
 ## Projects and Interests
+
+- **AI Academic Research Assistant**
+  _(Large Model Application) August 2025 - October 2025_
+  - Built a RAG engine with traceable citations to reduce hallucinations and designed a parallel Agent architecture to optimize retrieval speed.
+  - Developed a robust Streamlit Web interface with multi-layer degradation mechanisms, ensuring high availability for batch document processing.
 
 - **Supercritical Airfoil Design and Optimization**  
   _(Python, Matlab)_
