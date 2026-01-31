@@ -36,7 +36,7 @@ redirect_from:
 ## Projects and Interests
 
 - **AI Academic Research Assistant**
-  _(Large Model Application) August 2025 - October 2025_
+  _(Python)_
   - Built a RAG engine with traceable citations to reduce hallucinations and designed a parallel Agent architecture to optimize retrieval speed.
   - Developed a robust Streamlit Web interface with multi-layer degradation mechanisms, ensuring high availability for batch document processing.
 
@@ -59,7 +59,5 @@ redirect_from:
 ## Publications
 
 - **MetaDE: Evolving Differential Evolution by Differential Evolution** - _TEVC_
-  - keep a secret temperately
 
-- **Unleashing the Potential of Differential Evolution by Simple yet Diverse Strategies** - _Under Submission_
-  - keep a secret temperately
+- **Unleashing the Potential of Differential Evolution through Individual-Level Strategy Diversity** - _TEVC_
