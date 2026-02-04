@@ -31,10 +31,12 @@ Hello! My name is Chenchen Feng, and I am a second-year graduate student special
 
 ## Work Experience
 
+<!-- 
 - **Security LLM Intern**, Sangfor Technologies Inc.
   _November 2025 - February 2026_
   - Optimized MoE models for distributed training efficiency and improved key metrics by 3%-21% through curriculum learning-based instruction tuning.
   - Applied reinforcement learning algorithms like GRPO to enhance model alignment and compliance in complex real-world environments.
+-->
 
 - **Intern**, Kevin Software Information Services Co., Ltd.  
   _October 2022 - January 2023_
