@@ -52,3 +52,23 @@ Source PRD: tasks/prd-academic-site-de-slop.md
 - **Learnings for future iterations:**
   - The home page can stay useful without duplicating the CV by retaining the current role and routing detailed academic information to `/publications/` and `/cv/`.
 ---
+
+## 2026-07-19 22:03:38 +08:00 - US-003
+- Rewrote the MetaDE description in direct technical language while preserving its front matter and named claims, and added a Markdown link to the source code.
+- Files changed:
+  - `_publications/2025-02-13-MetaDE.md`
+  - `tasks/prd-academic-site-de-slop.md`
+  - `prd.json`
+  - `progress.txt`
+- Validation:
+  - US-003 front-matter, claim, link, and forbidden-phrase assertions: pass (`US-003 CONTENT OK`)
+  - YAML source check: pass (`YAML OK`)
+  - Markdown source check: pass (`Markdown OK`)
+  - Liquid source check: pass (`Liquid OK`)
+  - JSON source check: pass (`JSON OK`)
+  - `bundle check`: pass
+  - `git diff --check`: pass
+  - `bundle exec jekyll build`: expected pre-existing failure resolving `vendor/breakpoint/breakpoint`; no scope expansion attempted
+- **Learnings for future iterations:**
+  - Preserve publication front matter byte-for-byte and replace bare repository URLs with descriptive Markdown links when rewriting only the body.
+---

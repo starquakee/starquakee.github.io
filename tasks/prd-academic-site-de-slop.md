@@ -75,12 +75,12 @@ Remove the four confirmed generic or decorative remnants identified by the `kill
 
 **Acceptance Criteria:**
 
-- [ ] `_publications/2025-02-13-MetaDE.md` preserves all front-matter metadata and factual technical claims.
-- [ ] The body directly explains DE configuration sensitivity, MetaDE's meta-level evolution, dynamic parameterization, GPU parallelism, CEC2022 evaluation, and robot-control application.
-- [ ] The body links to `https://github.com/EMI-Group/metade` using Markdown link syntax.
-- [ ] The body contains none of `As a cornerstone`, `pivotal aspect`, `peak performance`, or repeated `promising performance` phrasing.
-- [ ] Markdown source checks and `git diff --check` pass.
-- [ ] Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks.
+- [x] `_publications/2025-02-13-MetaDE.md` preserves all front-matter metadata and factual technical claims.
+- [x] The body directly explains DE configuration sensitivity, MetaDE's meta-level evolution, dynamic parameterization, GPU parallelism, CEC2022 evaluation, and robot-control application.
+- [x] The body links to `https://github.com/EMI-Group/metade` using Markdown link syntax.
+- [x] The body contains none of `As a cornerstone`, `pivotal aspect`, `peak performance`, or repeated `promising performance` phrasing.
+- [x] Markdown source checks and `git diff --check` pass.
+- [x] Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks.
 
 ### US-004: Run residue and production visual validation
 
