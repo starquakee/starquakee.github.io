@@ -30,3 +30,25 @@ Source PRD: tasks/prd-academic-site-de-slop.md
 - **Learnings for future iterations:**
   - Keep recovery copy in Markdown with a root-relative `/` link so the 404 route stays useful without adding layout or navigation changes.
 ---
+
+## 2026-07-19 21:58:51 +08:00 - US-002
+- Implemented a concise home-page introduction with the current Moonshot AI role and direct Publications and CV links; removed duplicated profile detail and the now-unreferenced SUSTech logo.
+- Files changed:
+  - `_pages/about.md`
+  - `images/校徽.png` (deleted)
+  - `tasks/prd-academic-site-de-slop.md`
+  - `prd.json`
+  - `progress.txt`
+- Validation:
+  - US-002 front-matter, content, link, and duplicate-section assertions: pass (`US-002 CONTENT OK`)
+  - US-002 logo reference and file residue check: pass (`US-002 LOGO RESIDUE OK`)
+  - YAML source check: pass (`YAML OK`)
+  - Markdown source check: pass (`Markdown OK`)
+  - Liquid source check: pass (`Liquid OK`)
+  - JSON source check: pass (`JSON OK`)
+  - `bundle check`: pass
+  - `git diff --check`: pass
+  - `bundle exec jekyll build`: expected pre-existing failure resolving `vendor/breakpoint/breakpoint`; no scope expansion attempted
+- **Learnings for future iterations:**
+  - The home page can stay useful without duplicating the CV by retaining the current role and routing detailed academic information to `/publications/` and `/cv/`.
+---

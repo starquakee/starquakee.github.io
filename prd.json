@@ -32,8 +32,8 @@
         "Verify the integrated result in a browser using the browser skill during final aggregate validation."
       ],
       "priority": 2,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "notes": "Reduced the home page to a concise introduction and current Moonshot AI role with direct Publications and CV links, removed duplicated detail sections, and deleted the unreferenced SUSTech logo. Focused assertions and repository-equivalent source checks passed; final browser verification remains assigned to US-004."
     },
     {
       "id": "US-003",

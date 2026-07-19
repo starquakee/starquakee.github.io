@@ -61,13 +61,13 @@ Remove the four confirmed generic or decorative remnants identified by the `kill
 
 **Acceptance Criteria:**
 
-- [ ] `_pages/about.md` preserves its existing front matter, `/` permalink, and redirects.
-- [ ] The body contains a concise introduction, current Moonshot AI role, and direct links to `/publications/` and `/cv/`.
-- [ ] The body no longer repeats contact bullets or full Education, Work Experience, Projects, Publications, and Links sections.
-- [ ] `images/校徽.png` is deleted and no source file references it.
-- [ ] Markdown source checks and `git diff --check` pass.
-- [ ] Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks.
-- [ ] Verify the integrated result in a browser using the browser skill during final aggregate validation.
+- [x] `_pages/about.md` preserves its existing front matter, `/` permalink, and redirects.
+- [x] The body contains a concise introduction, current Moonshot AI role, and direct links to `/publications/` and `/cv/`.
+- [x] The body no longer repeats contact bullets or full Education, Work Experience, Projects, Publications, and Links sections.
+- [x] `images/校徽.png` is deleted and no source file references it.
+- [x] Markdown source checks and `git diff --check` pass.
+- [x] Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks.
+- [x] Verify the integrated result in a browser using the browser skill during final aggregate validation.
 
 ### US-003: Rewrite the MetaDE description
 
