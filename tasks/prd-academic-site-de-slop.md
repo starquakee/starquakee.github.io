@@ -49,11 +49,11 @@ Remove the four confirmed generic or decorative remnants identified by the `kill
 
 **Acceptance Criteria:**
 
-- [ ] `_pages/404.md` contains a plain not-found explanation and a working link to `/`.
-- [ ] `_pages/404.md` contains no `Ciallo`, kaomoji, or decorative emoji.
-- [ ] `_config.yml` sets `author.bio` to `Master's student in Computer Science`.
-- [ ] YAML and Markdown source checks pass.
-- [ ] Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks.
+- [x] `_pages/404.md` contains a plain not-found explanation and a working link to `/`.
+- [x] `_pages/404.md` contains no `Ciallo`, kaomoji, or decorative emoji.
+- [x] `_config.yml` sets `author.bio` to `Master's student in Computer Science`.
+- [x] YAML and Markdown source checks pass.
+- [x] Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks.
 
 ### US-002: Simplify the home page
 

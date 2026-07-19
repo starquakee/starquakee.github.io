@@ -10,3 +10,23 @@ Source PRD: tasks/prd-academic-site-de-slop.md
 - On this Windows environment, use focused YAML, Markdown, and Liquid checks because the pre-existing Jekyll 3.10/Sass 3.7 import-path failure blocks a full local build.
 - Final UI validation must happen against production after the feature branch is integrated into `master`.
 
+## 2026-07-19 21:54:06 +08:00 - US-001
+- Implemented direct 404 recovery copy and replaced the sidebar slogan with the factual Master's student label.
+- Files changed:
+  - `_pages/404.md`
+  - `_config.yml`
+  - `tasks/prd-academic-site-de-slop.md`
+  - `prd.json`
+  - `progress.txt`
+- Validation:
+  - YAML source check: pass (`YAML OK`)
+  - Markdown source check: pass (`Markdown OK`)
+  - Liquid source check: pass (`Liquid OK`)
+  - JSON source check: pass (`JSON OK`)
+  - `bundle check`: pass
+  - `git diff --check`: pass
+  - US-001 old-copy residue scan: pass (no matches)
+  - US-001 target assertions: pass (`BIO OK`, `404 COPY OK`)
+- **Learnings for future iterations:**
+  - Keep recovery copy in Markdown with a root-relative `/` link so the 404 route stays useful without adding layout or navigation changes.
+---
