@@ -130,16 +130,19 @@ for i in $(seq 1 "$MAX_ITERATIONS"); do
   echo "==============================================================="
 
   if [[ "$TOOL" == "codex" ]]; then
-    OUTPUT="$("$CODEX_BIN" exec --dangerously-bypass-approvals-and-sandbox - < "$SCRIPT_DIR/AGENTS.md" 2>&1 | tee /dev/stderr)" || true
+    OUTPUT="$("$CODEX_BIN" exec --dangerously-bypass-approvals-and-sandbox - < "$SCRIPT_DIR/AGENTS.md" 2>&1)" || true
+    echo "$OUTPUT"
     if echo "$OUTPUT" | grep -q "^assistant"; then
       OUTPUT="$(echo "$OUTPUT" | awk 'BEGIN{found=0} /^assistant/{found=1;next} {if(found) print}')"
     elif echo "$OUTPUT" | grep -q "^tokens used"; then
       OUTPUT="$(echo "$OUTPUT" | awk 'BEGIN{found=0} /^tokens used/{found=1} {if(found) print}')"
     fi
   elif [[ "$TOOL" == "claude" ]]; then
-    OUTPUT="$(claude --dangerously-skip-permissions --print < "$SCRIPT_DIR/AGENTS.md" 2>&1 | tee /dev/stderr)" || true
+    OUTPUT="$(claude --dangerously-skip-permissions --print < "$SCRIPT_DIR/AGENTS.md" 2>&1)" || true
+    echo "$OUTPUT"
   else
-    OUTPUT="$(cat "$SCRIPT_DIR/AGENTS.md" | amp --dangerously-allow-all 2>&1 | tee /dev/stderr)" || true
+    OUTPUT="$(cat "$SCRIPT_DIR/AGENTS.md" | amp --dangerously-allow-all 2>&1)" || true
+    echo "$OUTPUT"
   fi
 
   if echo "$OUTPUT" | grep -q "<promise>COMPLETE</promise>"; then
