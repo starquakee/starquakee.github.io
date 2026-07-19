@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Chenchen Feng"
 title_separator          : "-"
 name                     : &name "Chenchen Feng"
-description              : &description "A graduate student who likes ACG and specializes in Evolutionary Computation"
+description              : &description "A graduate student specializing in Evolutionary Computation"
 url                      : https://starquakee.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "starquakee/starquakee.github.io"
@@ -51,7 +51,6 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
-  bangumi          : "846860"
   bilibili         : # "434237222"
   pixiv            : # "96768290"
   facebook         : # Username
@@ -225,9 +224,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  memory:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -278,15 +274,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
-  # _memory
-  - scope:
-      path: ""
-      type: memory
-    values:
-      layout: single
-      author_profile: false
       share: true
       comment: true
   # _talks

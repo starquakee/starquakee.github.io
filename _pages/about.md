@@ -9,7 +9,7 @@ redirect_from:
 
 # About Me
 
-Hello! My name is Chenchen Feng, and I am a second-year graduate student specializing in Computer Science. I am interested in Evolutionary Computation, Backend and LLM. I love playing games. At the same time, I am a homebody, love ACG, have seen 500+ animations and played over 100 GalGames. If you also love ACG, please add me as a [bangumi friend](https://bangumi.tv/user/846860).
+Hello! My name is Chenchen Feng, and I am a second-year graduate student specializing in Computer Science. I am interested in Evolutionary Computation, Backend and LLM. I also enjoy playing games.
 
 - **Location**: [Shenzhen, China]
 - **Institution**: [Southern University of Science and Technology(SUSTech)]
@@ -19,11 +19,11 @@ Hello! My name is Chenchen Feng, and I am a second-year graduate student special
 
 ## Education
 
-- **Master of Computer Science**, Southern University of Science and Technology (SUSTech), _2024–Present_
+- **Master of Computer Science**, Southern University of Science and Technology (SUSTech), _2024-Present_
   <img src="/images/校徽.png" width="80" height="80">
 
 
-- **Bachelor of Computer Science**, Southern University of Science and Technology (SUSTech), _2020–2024_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- **Bachelor of Computer Science**, Southern University of Science and Technology (SUSTech), _2020-2024_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="/images/校徽.png" width="80" height="80">
   - Thesis: "MetaDE: Evolving Differential Evolution by Differential Evolution"
 
@@ -84,4 +84,3 @@ Hello! My name is Chenchen Feng, and I am a second-year graduate student special
 ## Links and Social Media
 
 - **GitHub**: [GitHub Profile](https://github.com/starquakee)
-- **Bangumi**: [Bangumi Profile](https://bangumi.tv/user/846860)
