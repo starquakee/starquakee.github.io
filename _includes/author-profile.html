@@ -17,7 +17,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">Links</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
@@ -33,6 +33,9 @@
       {% endif %}
       {% if author.leetcode %}
         <li><a href="{{ author.leetcode }}"><i class="fas fa-code fa-fw icon-pad-right" aria-hidden="true"></i>LeetCode</a></li>
+      {% endif %}
+      {% if author.scholar %}
+        <li><a href="https://scholar.google.com/citations?user={{ author.scholar }}"><i class="fas fa-graduation-cap fa-fw icon-pad-right" aria-hidden="true"></i>Google Scholar</a></li>
       {% endif %}
       {% if author.supervisor %}
         <li><a href="https://scholar.google.com/citations?user={{ author.supervisor }}"><i class="fas fa-graduation-cap ai-fw icon-pad-right" aria-hidden="true"></i>Supervisor</a></li>

@@ -20,14 +20,15 @@ redirect_from:
 
 ## Work Experience
 
-<!-- 
-- **Security LLM Intern**, Sangfor Technologies Inc.
-  _November 2025 - February 2026_
-  - Optimized MoE models for distributed training efficiency and improved key metrics by 3%-21% through curriculum learning-based instruction tuning.
-  - Applied reinforcement learning algorithms like GRPO to enhance model alignment and compliance in complex real-world environments.
--->
+- **Harness Development Intern**, Moonshot AI (Kimi)<br>
+  _February 2026-Present_
+  - Develop agents for LLM products, with a focus on orchestration, tool-use flows, and reliable user-facing workflows.
 
-- **Intern**, Kevin Software Information Services Co., Ltd.  
+- **LLM Post-Training Intern**, Sangfor Technologies Inc.<br>
+  _December 2025-February 2026_
+  - Worked on post-training for a security-focused large language model across SFT and RLHF workflows.
+
+- **Backend Development Intern**, Kevin Software Information Services Co., Ltd.<br>
   _October 2022 - January 2023_
   - Designed and built an extensible hotel database using MySQL to facilitate development.
   - Developed back-end features in C#, including user registration, room search, room booking, payment transactions, and order reviews.
@@ -35,10 +36,10 @@ redirect_from:
 
 ---
 
-## Projects and Interests
+## Projects
 
 - **AI Academic Research Assistant**
-  _(Python)_
+  _(Python, RAG, Agents, Streamlit)_
   - Built a RAG engine with traceable citations to reduce hallucinations and designed a parallel Agent architecture to optimize retrieval speed.
   - Developed a robust Streamlit Web interface with multi-layer degradation mechanisms, ensuring high availability for batch document processing.
 
@@ -48,7 +49,7 @@ redirect_from:
   - Achieved superior performance in flutter coefficient and lift-to-drag ratio compared to manual designs.
 
 - **Research Fund Management System**  
-  _(SpringBoot, MySQL, VUE)_
+  _(Spring Boot, MySQL, Vue)_
   - Developed a system for university faculty to manage fund applications and approvals, featuring data visualization, messaging, and high concurrency.
 
 - **P2P File Transfer with UDP and Congestion Control**  
@@ -60,6 +61,14 @@ redirect_from:
 
 ## Publications
 
-- **MetaDE: Evolving Differential Evolution by Differential Evolution** - _TEVC_
+- **MetaDE: Evolving Differential Evolution by Differential Evolution** - _IEEE Transactions on Evolutionary Computation, 2025_
 
-- **Unleashing the Potential of Differential Evolution through Individual-Level Strategy Diversity** - _TEVC_
+- **Unleashing the Potential of Differential Evolution through Individual-Level Strategy Diversity** - _IEEE Transactions on Evolutionary Computation, 2026_
+
+---
+
+## Profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=t9jcbNUAAAAJ)
+- [GitHub](https://github.com/starquakee)
+- [ORCID](https://orcid.org/0009-0000-1072-8183)
