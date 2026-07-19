@@ -43,6 +43,11 @@ include:
   - files
 exclude:
   - AGENTS.md
+  - archive
+  - prd.json
+  - progress.txt
+  - scripts
+  - tasks
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

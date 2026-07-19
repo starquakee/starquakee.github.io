@@ -1,0 +1,72 @@
+{
+  "project": "Academic Site De-slop",
+  "branchName": "ralph/academic-site-de-slop",
+  "description": "Remove four confirmed generic or decorative remnants while preserving the academic site's facts, routes, and restrained theme.",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "Replace decorative copy with factual copy",
+      "description": "As a visitor, I want the 404 page and sidebar description to use direct language so the site feels intentional and professional.",
+      "acceptanceCriteria": [
+        "_pages/404.md contains a plain not-found explanation and a working link to /.",
+        "_pages/404.md contains no Ciallo, kaomoji, or decorative emoji.",
+        "_config.yml sets author.bio to Master's student in Computer Science.",
+        "YAML and Markdown source checks pass.",
+        "Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks."
+      ],
+      "priority": 1,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-002",
+      "title": "Simplify the home page",
+      "description": "As a visitor, I want a concise home page so I can understand the owner's current focus without rereading the CV and sidebar.",
+      "acceptanceCriteria": [
+        "_pages/about.md preserves its existing front matter, / permalink, and redirects.",
+        "The body contains a concise introduction, current Moonshot AI role, and direct links to /publications/ and /cv/.",
+        "The body no longer repeats contact bullets or full Education, Work Experience, Projects, Publications, and Links sections.",
+        "images/校徽.png is deleted and no source file references it.",
+        "Markdown source checks and git diff --check pass.",
+        "Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks.",
+        "Verify the integrated result in a browser using the browser skill during final aggregate validation."
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-003",
+      "title": "Rewrite the MetaDE description",
+      "description": "As a reader, I want the MetaDE page to state the research problem, method, implementation, and evidence directly so I can assess the work quickly.",
+      "acceptanceCriteria": [
+        "_publications/2025-02-13-MetaDE.md preserves all front-matter metadata and factual technical claims.",
+        "The body directly explains DE configuration sensitivity, MetaDE's meta-level evolution, dynamic parameterization, GPU parallelism, CEC2022 evaluation, and robot-control application.",
+        "The body links to https://github.com/EMI-Group/metade using Markdown link syntax.",
+        "The body contains none of As a cornerstone, pivotal aspect, peak performance, or repeated promising performance phrasing.",
+        "Markdown source checks and git diff --check pass.",
+        "Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks."
+      ],
+      "priority": 3,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-004",
+      "title": "Run residue and production visual validation",
+      "description": "As the site owner, I want the integrated changes checked for residue and visually verified so removed patterns do not survive in source or production.",
+      "acceptanceCriteria": [
+        "All earlier stories have passes true with validation evidence in progress.txt.",
+        "The forbidden-copy scan returns no source hits for the removed 404 and MetaDE phrases or the old sidebar slogan.",
+        "All remaining static assets under images/ and files/ have source references.",
+        "YAML, Markdown, Liquid, JSON, dependency, and git diff --check validations pass.",
+        "The feature branch is integrated into master and pushed without rewriting history.",
+        "The production home page and 404 page are visually verified in a browser after GitHub Pages deployment.",
+        "Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks."
+      ],
+      "priority": 4,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}

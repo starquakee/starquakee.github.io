@@ -1,0 +1,12 @@
+# Ralph Progress: Academic Site De-slop
+
+Started: 2026-07-19
+Source PRD: tasks/prd-academic-site-de-slop.md
+
+## Codebase Patterns
+
+- This is a Jekyll Academic Pages site; content source lives in `_pages/`, `_posts/`, and `_publications/`.
+- Preserve route front matter and use the sidebar/CV/Publications pages as the owners of detailed profile information.
+- On this Windows environment, use focused YAML, Markdown, and Liquid checks because the pre-existing Jekyll 3.10/Sass 3.7 import-path failure blocks a full local build.
+- Final UI validation must happen against production after the feature branch is integrated into `master`.
+

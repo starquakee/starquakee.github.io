@@ -12,5 +12,9 @@ Gemfile.lock
 node_modules
 package-lock.json
 
+# Ignore Ralph runtime state and temporary previews
+scripts/ralph/.last-branch
+tmp/
+
 # Ignore JetBrains IDE configuration
 .idea/
