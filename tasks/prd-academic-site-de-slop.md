@@ -88,13 +88,13 @@ Remove the four confirmed generic or decorative remnants identified by the `kill
 
 **Acceptance Criteria:**
 
-- [ ] All earlier stories have `passes: true` with validation evidence in `progress.txt`.
-- [ ] The forbidden-copy scan returns no source hits for the removed 404 and MetaDE phrases or the old sidebar slogan.
-- [ ] All remaining static assets under `images/` and `files/` have source references.
-- [ ] YAML, Markdown, Liquid, JSON, dependency, and `git diff --check` validations pass.
-- [ ] The feature branch is integrated into `master` and pushed without rewriting history.
-- [ ] The production home page and 404 page are visually verified in a browser after GitHub Pages deployment.
-- [ ] Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks.
+- [x] All earlier stories have `passes: true` with validation evidence in `progress.txt`.
+- [x] The forbidden-copy scan returns no source hits for the removed 404 and MetaDE phrases or the old sidebar slogan.
+- [x] All remaining static assets under `images/` and `files/` have source references.
+- [x] YAML, Markdown, Liquid, JSON, dependency, and `git diff --check` validations pass.
+- [x] The feature branch is integrated into `master` and pushed without rewriting history.
+- [x] The production home page and 404 page are visually verified in a browser after GitHub Pages deployment.
+- [x] Typecheck passes via the repository-equivalent YAML, Markdown, and Liquid source checks.
 
 ## Functional Requirements
 

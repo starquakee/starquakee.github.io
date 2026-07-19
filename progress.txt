@@ -72,3 +72,25 @@ Source PRD: tasks/prd-academic-site-de-slop.md
 - **Learnings for future iterations:**
   - Preserve publication front matter byte-for-byte and replace bare repository URLs with descriptive Markdown links when rewriting only the body.
 ---
+
+## 2026-07-19 22:13:21 +08:00 - US-004
+- Completed aggregate residue checks, fast-forwarded `ralph/academic-site-de-slop` into `master`, pushed the integrated history, and visually verified the deployed home and 404 pages.
+- Files changed:
+  - `tasks/prd-academic-site-de-slop.md`
+  - `prd.json`
+  - `progress.txt`
+- Validation:
+  - Earlier-story status and evidence review: pass (US-001 through US-003 have `passes: true` and progress entries)
+  - Forbidden-copy scan: pass (`FORBIDDEN_COPY=0`)
+  - Static asset reference scan: pass (`UNREFERENCED_ASSETS=0`)
+  - `kill-ai-slop` scans for `_pages/` and `_publications/`: pass (no slop signals)
+  - YAML, Markdown, Liquid, and JSON source checks: pass
+  - `bundle check`: pass
+  - `git diff --check`: pass
+  - Git integration: pass (fast-forward only, pushed to `origin/master`)
+  - Production home page: pass (`https://starquake.top/?deploy=a2a111e`; concise three-paragraph introduction and factual sidebar bio visible)
+  - Production 404 page: pass (`https://starquake.top/404.html?deploy=a2a111e`; direct recovery message and home-page link visible)
+  - `bundle exec jekyll build`: expected pre-existing failure resolving `vendor/breakpoint/breakpoint`; no scope expansion attempted
+- **Learnings for future iterations:**
+  - Use a cache-busting query for post-deployment checks and verify the production domain directly before marking a Pages-dependent story complete.
+---
